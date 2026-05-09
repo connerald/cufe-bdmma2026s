@@ -17,3 +17,12 @@
 ## 目录占位
 
 本目录保留 `.gitkeep` 仅用于让空目录被 Git 跟踪。
+
+## 数据文件说明
+
+- **文件名**: `UserBehavior.csv`
+- **列（按顺序）**: 用户ID, 商品ID, 商品类目ID, 行为类型, 时间戳
+- **格式**: 纯数据文件，无表头（no header）。每行为一条记录，字段由逗号分隔，列按上面顺序排列。
+- **使用提示**: 读取时请显式指定无表头并按顺序映射列名。例如在 Python pandas 中使用 `header=None` 然后 `names=["user_id","item_id","category_id","behavior_type","timestamp"]`。
+
+如果你希望我补充各列的数据类型、取值含义或示例行，请告诉我。
