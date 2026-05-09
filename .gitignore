@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data files
+data/*
+!data/.gitkeep
+!data/README.md
