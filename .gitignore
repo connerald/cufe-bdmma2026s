@@ -221,3 +221,6 @@ __marimo__/
 data/*
 !data/.gitkeep
 !data/README.md
+!data/raw/
+data/raw/*
+!data/raw/.gitkeep

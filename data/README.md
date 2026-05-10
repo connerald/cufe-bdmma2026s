@@ -7,7 +7,7 @@
 请从阿里云天池平台获取原始数据，然后将文件放到本目录下。
 
 - 数据集链接：<https://tianchi.aliyun.com/dataset/649/comment>
-- 放置位置：`data/`
+- 放置位置：`data/raw`
 
 ## 提交规则
 
@@ -24,5 +24,3 @@
 - **列（按顺序）**: 用户ID, 商品ID, 商品类目ID, 行为类型, 时间戳
 - **格式**: 纯数据文件，无表头（no header）。每行为一条记录，字段由逗号分隔，列按上面顺序排列。
 - **使用提示**: 读取时请显式指定无表头并按顺序映射列名。例如在 Python pandas 中使用 `header=None` 然后 `names=["user_id","item_id","category_id","behavior_type","timestamp"]`。
-
-如果你希望我补充各列的数据类型、取值含义或示例行，请告诉我。
