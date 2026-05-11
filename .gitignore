@@ -224,3 +224,7 @@ data/*
 !data/raw/
 data/raw/*
 !data/raw/.gitkeep
+
+# Output contents
+output/*
+!output/README.md
